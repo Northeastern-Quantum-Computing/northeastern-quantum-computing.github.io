@@ -1,0 +1,34 @@
+url: https://neuqc.org
+title: Northeastern Quantum Computing
+description: Northeastern's Quantum Computing Club
+nav-links:
+  - name: Join
+    url: /join
+  - name: Blog
+    url: /blog
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  math_engine: mathjax
+
+defaults:
+  - # applies the default layout to all files in the project
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  - # sets is_post=true for all blog posts
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+
+permalink: /blog/:title
+
+sass:
+  style: compressed # compress the CSS file generated from the SCSS styles file
