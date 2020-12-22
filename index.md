@@ -3,6 +3,6 @@ layout: landing
 description: Northeastern University's unofficial quantum computing club. 
 ---
 
-[comment]: <> (No experience needed. Heck, you don't even need to go to Northeastern to join.)
+<p style="font-size: 1.5rem; margin-top: 50px">Interested?</p>
 
-<a href="" class="button">Coming Soon</a>
+<a href="https://forms.gle/b8JgEhx8uyRcyL2T6" class="button" style="font-weight: 400">Let us know</a>
